@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.13.0a4
 RUN apt-get update
 RUN apt-get install --yes python3-pip
 RUN mkdir /new_chatapp
